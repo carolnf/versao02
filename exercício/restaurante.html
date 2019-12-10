@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Cardápio</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Quem Somos</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Contato</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Las Chichas</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://imgp0.schaer.com/sites/default/files/1843_Bruscheta%20de%20tomates.jpg" alt="Bruscheta" style="width:100%">
+      <h3>A Bruschetta</h3>
+      <p>Um antepasto italiano feito à base de pão, que é tostado em grelha com azeite e depois esfregado com alho.</p>
+      <p>Valor: R$15,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://assets.xtechcommerce.com/uploads/images/medium/3c2863a192afe597f8c76ba03b513a6f.jpg" alt="Steak" style="width:100%">
+      <h3>La Pasta</h3>
+      <p>Molho feito com carne bovina moída, tomate e outros adicionais, preparado para acompanhar spaghetti.</p>
+      <p>Valor: R$26,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.receitadevovo.com.br/gbau/sistema/receitas/img/pure-de-beterraba_01102018182555.jpg" alt="Cherries" style="width:100%">
+      <h3>Beet </h3>
+      <p>Purê cremoso de beterraba.</p>
+      <p>Valor: R$30,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/91/40/6a/casa-do-hamburguer.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Burguer Billy</h3>
+      <p>Cheeseburguer com molho barbecue, acompanhada de batata canoa. </p>
+      <p>Valor: R$25,00</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="http://www.alegrafoods.com.br/wp-content/uploads/2017/10/costela-cerveja.png" alt="Popsicle" style="width:100%">
+      <h3>The Rib</h3>
+      <p>Costela preparada com temperos especiais e regado ao molho barbecue.</p>
+      <p>Valor: R$40,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.emporio481.com.br/wp-content/uploads/2017/08/0007_domar.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmão em Posta</h3>
+      <p>Salmão temperado com limão siciliano.</p>
+      <p>Valor: R$35,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://truffle-assets.imgix.net/84cnzp0itw1q_78k7mF1y5aAmwoK8SicWYw_pao-com-alho_landscapeThumbnail_en-US.jpeg" alt="Sandwich" style="width:100%">
+      <h3>Garlic Bread</h3>
+      <p>Pão na brasa recheado com pasta de alho.</p>
+      <p>Valor: R$18,00</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShJn8BEl1jcD86XaEfauHk0j1sdgCG5VpSg4OK0eZ_lIDB9tk&s" alt="Croissant" style="width:100%">
+      <h3>A Pizza</h3>
+      <p>Massa assada na lenha recheada com duplo queijo.</p>
+      <p>Valor: R$45,00</p>
+      
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+      <h3>Agredicimentos</h3>
+      <p>Grato a todos os clientes que fazem do nosso restaurante o melhor da cidade.</p>
+    </div>
+  
+
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
